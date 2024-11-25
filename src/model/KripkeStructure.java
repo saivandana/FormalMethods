@@ -129,7 +129,6 @@ public class KripkeStructure {
 
         return null;
     }
-
     /// <summary>
     /// Override ToString method
     /// </summary>
