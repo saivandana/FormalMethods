@@ -1,0 +1,19 @@
+s1, s2, s3, s4, s5, s6, s7;
+start_oven : s1 - s2,
+open_door : s2 - s5,
+open_door : s5 - s2,
+reset : s5 - s3,
+close_door : s1 - s3,
+open_door : s3 - s1,
+start_oven : s3 - s6,
+cook : s4 - s4,
+done : s4 - s3,
+start_cooking : s7 - s4,
+warmup : s6 - s7;
+s1: ,
+s2: start err,
+s3: close,
+s4: close heat,
+s5: start close err,
+s6: start close,
+s7: start close heat;

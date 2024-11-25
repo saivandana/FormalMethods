@@ -1,0 +1,42 @@
+s1;EGstart;False
+s2;EGstart;True
+s3;EGstart;False
+s4;EGstart;False
+s5;EGstart;True
+s6;EGstart;False
+s7;EGstart;False
+s1;EGclose;False
+s2;EGclose;False
+s3;EGclose;True
+s4;EGclose;True
+s5;EGclose;True
+s6;EGclose;True
+s7;EGclose;True
+s1;EGheat;False
+s2;EGheat;False
+s3;EGheat;False
+s4;EGheat;True
+s5;EGheat;False
+s6;EGheat;False
+s7;EGheat;True
+s1;EGerr;False
+s2;EGerr;True
+s3;EGerr;False
+s4;EGerr;False
+s5;EGerr;True
+s6;EGerr;False
+s7;EGerr;False
+s1;E(start U err);False
+s2;E(start U err);True
+s3;E(start U heat);False
+s4;E(heat U close);True
+s5;E(close U err);True
+s6;E(err U heat);False
+s7;E(err U close);True
+s1;AG(start->AFheat);False
+s2;AG(start->AFheat);False
+s3;AG(start->AFheat);False
+s4;AG(start->AFheat);False
+s5;AG(start->AFheat);False
+s6;AG(start->AFheat);False
+s7;AG(start->AFheat);False
