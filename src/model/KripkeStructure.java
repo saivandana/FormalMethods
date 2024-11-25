@@ -161,7 +161,6 @@ public class KripkeStructure {
         sb.append(String.join(", ", stateStrings));
         return sb.toString();
     }
-
     public String transitionsToString() {
         StringBuilder sb = new StringBuilder();
 
