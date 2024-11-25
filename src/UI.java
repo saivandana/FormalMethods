@@ -1,5 +1,3 @@
-
-
 // Using AWT container and component classes
 
 import controller.CTLFormula;
